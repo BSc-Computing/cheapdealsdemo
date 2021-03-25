@@ -1,0 +1,33 @@
+{
+  "name": "BSc-Computing/cheapdealsdemo",
+  "description": "A demo CRM application developed using Agile Scrum dev methodology",
+  "require-dev": {
+      "phpunit/phpunit": "^9.1",
+      "friendsofphp/php-cs-fixer": "^2.0"
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.3"
+
+  },
+  "scripts": {
+    "test": "phpunit",
+    "php-cs-fixer": "php-cs-fixer fix ./",
+    "test": "./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/",
+    "testdox": "./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox --colors=always tests/"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    },
+    "classmap": [
+      "src/"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\": "tests"
+    }
+  },
+  "license": "MIT"
+
+}
