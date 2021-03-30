@@ -1,6 +1,6 @@
 # CheapDeals CRM demo application for Agile Development with Scrum by BSc Students
 
-[![Codacy Badge](https://img.shields.io/badge/Code%20Quality-D-red)](https://img.shields.io/badge/Code%20Quality-D-red)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/53e21cdf33754d0498bc85a0a034923b)](https://www.codacy.com/gh/BSc-Computing/cheapdealsdemo/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=BSc-Computing/cheapdealsdemo&amp;utm_campaign=Badge_Grade)
 
 ## About
 
